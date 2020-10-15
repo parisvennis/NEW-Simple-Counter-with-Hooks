@@ -9,7 +9,7 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import Counter from "./component/Counter";
+import NoteApp from "./component/NoteApp";
 
 //render your react application
-ReactDOM.render(<Counter />, document.querySelector("#app"));
+ReactDOM.render(<NoteApp />, document.querySelector("#app"));
